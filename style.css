@@ -3,3 +3,111 @@ html, body {
     width: 100%;
     background-color: rgb(223, 207, 185);
   }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  background: #fff;
+
+}
+/*search bar*/
+.search-container{
+  background: #fff;
+  height: 30px;
+  border-radius: 30px;
+  padding: 20px 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  /*
+  box-shadow:  4px 4px 6px 0 rgba(15, 15, 15, 0.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  */
+  }
+
+.search-container:hover > .search-input{
+  width: 260px;
+}
+
+.search-container .search-input{
+  background: transparent;
+  border: none;
+  outline:none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 1.4s;
+
+}
+
+@keyframes hoverShake {
+0% {transform: skew(0deg,0deg);}
+25% {transform: skew(5deg, 5deg);}
+75% {transform: skew(-5deg, -5deg);}
+100% {transform: skew(0deg,0deg);}
+}
+
+.search-container:hover{
+animation: hoverShake 0.20s linear 0.4;
+}
+/* Until this part is for search bar*/
+
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*Logo appearances*/
+header .logo
+{
+  color:black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/*Options align horizontal on top right*/
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Spacing between options*/
+header ul li{
+  list-style: none;
+  margin-left: 40px;
+}
+
+header ul li a{
+  text-decoration: none;
+  padding: 15px 15px;
+  color: black; 
+  border-radius: 3px;
+  
+}
+/*hover over options effect*/
+header ul li a:hover{
+  background: black;
+  color:#fff;
+  
+}
+
+         
+
