@@ -1,68 +1,20 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(223, 207, 185);
-  }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+
 }
+
+
 body{
   min-height: 100vh;
   background: #fff;
 
 }
-/*search bar*/
-.search-container{
-  background: #fff;
-  height: 30px;
-  border-radius: 30px;
-  padding: 22px 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 0.8s;
-  
-  
-  box-shadow:  4px 4px 6px 0 rgba(15, 15, 15, 0.3),
-              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.2),
-    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
-  
-   
-  }
-
-.search-container:hover > .search-input{
-  width: 260px;
-}
-
-.search-container .search-input{
-  background: transparent;
-  border: none;
-  outline:none;
-  width: 0px;
-  font-weight: 500;
-  font-size: 15px;
-  transition: 1.4s;
-
-}
-
-@keyframes hoverShake {
-0% {transform: skew(0deg,0deg);}
-25% {transform: skew(5deg, 5deg);}
-75% {transform: skew(-5deg, -5deg);}
-100% {transform: skew(0deg,0deg);}
-}
-
-.search-container:hover{
-animation: hoverShake 0.20s linear 0.7;
-}
-/* Until this part is for search bar*/
 
 
 header{
@@ -70,7 +22,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 30px 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,25 +33,31 @@ header .logo
   color:black;
   font-weight: 700;
   text-decoration: none;
-  font-size: 3em;
+  font-size: 1.7em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/*Options align horizontal on top right*/
+/*Logo appearances end*/
+
+/*Options align at top-center of page*/
+
 header ul{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 453px;
+  
 }
+/*Options align at top-center of page end*/
+
 /*Spacing between options*/
 header ul li{
   list-style: none;
-  margin-left: 40px;
+  margin-left: 20px;
 }
+/*Spacing between options end*/
 
 header ul li a{
   text-decoration: none;
-  padding: 15px 15px;
+  padding: 10px 10px;
   color: black; 
   border-radius: 3px;
   
@@ -110,35 +68,72 @@ header ul li a:hover{
   background: black;
   color:#fff;
 }
+/*hover over options effect end*/
 
-
-/* hover over options effect */
-/*
-a {
-  box-shadow: inset 0 0 0 0 #3a3c3c;
-  color: #26292a;
-  padding: 0 .25rem;
-  margin: 0 -.25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-a:hover {
-  color: #fff;
-  box-shadow: inset 200px 0 0 0 #384347;;
+/*Search box*/
+.container {
+  margin-top: 6em;
+  text-align: center;
+  
 }
 
-/* Presentational styles */
-/*
-a {
-  color: #84888a;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.5;
-  text-decoration: none;
+div input {
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  display: grid;
-  height: 100vh;
-  place-items: center;
+#animated input[type=text] {
+  width: 310px;
+  box-sizing: border-box;
+  border: 1.5px solid #a6a6a6;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 12px;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
 }
+
+#animated input[type=text]:focus {
+  width: 500px;
+}
+
+#animated i {
+position: relative;
+right: 32px;
+}
+/*Search box end*/
+
+/*shopping bag & profile icon*/
+.icons  {
+  position:absolute; 
+  top: 0;
+  margin-top: 1.7em;
+  right: 6em  ;
+}
+
+.icons ion-icon {
+  color: black;
+  
+}
+.icons ion-icon, [name="person-circle-outline"] {
+
+margin-right: 19px;
+
+}
+
+ion-icon:hover {
+  
+   /* moused over link */ 
+   color: rgb(224, 17, 186); 
+  
+  }
+
+
+/*shopping bag & profile icon end*/
+
+
+/* test out fonts 
+p ,a {
+  font-family: 'Courier New', Courier, monospace;
+}
+*/
