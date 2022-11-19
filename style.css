@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 *
 {
   margin: 0;
@@ -137,3 +139,46 @@ p ,a {
   font-family: 'Courier New', Courier, monospace;
 }
 */
+
+/*About us content*/
+.about_us h1 {
+  font-size: 44px;
+  padding-left: 1em;
+  font-family: 'Newsreader', serif;
+
+}
+
+p {
+  font-family: 'Newsreader', serif;
+  padding-left: 2.8em;
+
+}
+
+.about_us{
+  display: flex;
+  margin-right: 0em;
+  margin-left: 0em;
+  margin-top: 1.7em;
+  height: 22em;
+  background-color: rgb(216, 216, 216);
+}
+
+
+.about_us a {
+  text-decoration: none;
+  margin-left: 2.8em;
+  margin-top: 8em;
+  display: inline-block;
+  padding: 10px 12px;
+  color: black;
+  background-color: transparent;
+  border: 3px solid black;
+  font-family: 'Montserrat', sans-serif;
+  
+
+}
+.about_us a:hover{
+  color: #fff;
+  background-color: black;
+}
+/*About us content end*/
