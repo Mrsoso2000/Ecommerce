@@ -24,4 +24,62 @@ Then, I start creating a wireframe for my website that showcases the layout of t
 
 ## Features
 
-For the features of the website it is ease to make users to understand and navigate easily. Therefore, it is seperated into few different parts. The **'options bar'** which consist of four different options; **_'Shop'_**, **_'Fine watches'_**, **_'Gifts'_**, and **_'Collections'_**. A **'Search Bar'**. In addition to that, users are able to find a **_'Add to cart'_** function below each product. Moreover, a **'Login'** icon for users to login as a member and a **'shopping cart'** icon for users to view the added items. Lastly a **'redeem voucher'** function to redeem voucher.
+For the features of the website it is ease to make users to understand and navigate easily. Therefore, it is seperated into few different parts. The **'Options bar'** which consist of four different options; **_'Shop'_**, **_'Fine watches'_**, **_'Gifts'_**, and **_'Collections'_**. A **'Search Bar'**. In addition to that, users are able to find a **_'Add to cart'_** function below each product. Moreover, a **'Login'** icon for users to login as a member and a **'Shopping cart'** icon for users to view the added items. Lastly a **'Redeem voucher'** function to redeem voucher.
+
+### Existing Features
+
+- Shop - allows users to choose from different categories to shop from new arrivals, bracelets, necklaces, rings, earrings or just shop all.
+
+- Fine watches - for users to explore fine watches features from men's, women's to all fine watches.
+
+- Gifts - allows users to choose for types of gifts either for 'Him', 'Her' or even for 'Birthdat Gifts'.
+
+- Collections - features collections only available for the current season.
+
+- Search Bar - allows users to search for goods available in the store.
+
+- Login - allows users to either login as a member or register an account.
+
+- Shopping cart - allows users to view the item added and the total amount requires to pay.
+
+### Features Left to Implement
+
+- Add to cart - for users to add desired items into shopping cart upon clicking it.
+
+- Redeem voucher - allows users to redeem voucher for reduction for chosen items under terms and conditions.
+
+## Technologies Used
+
+1. [HTML](https://html.com/)
+   \*The project uses HTML to structure the web page and the content.
+2. [CSS](#)
+   \*The project uses CSS to illustrate the layout, fonts, and color of the website.
+3. [Javascript](https://www.w3.org/Style/CSS/Overview.en.html)
+   \*The project uses Javascript programming language to create interactions in web and for the 'redeem voucher' function in the project.
+4. [README File](https://www.makeareadme.com/)
+   \*The project uses README File to gives users a detailed description of the project.
+5. [Adobe XD](https://www.adobe.com/products/xd/pricing/free-trial.html)
+   \*The project uses Adobe XD to build prototype and brief idea of how the layout of the webpage should look like.
+
+## Testing
+
+1. Search Bar:
+   i. Go to 'Seach Bar' located in the center-top of the page
+   ii. Try and search for products that you are looking for and verify if it redirects to the pages related.
+   iii. Try to type any irrelevant content inside the box and verify if there's any invalid input message appears.
+
+So far, I'm having trouble aligning the contents in different screen sizes as it may look different from each. Therefore, I'm currently working on 'media queries' and 'flexboxes' to make the content align in its corrrect position on different screen sizes.
+
+Moreover, users using browsers to navigate items in the home page may need to click to the 2nd page for viewing all products as the home page only consist 5-6 products while for phone view it will be showing up to 7-8 which is the desired amount of products I wanted to show at the home page.
+
+## Credits
+
+### Content
+
+### Media
+
+- The photos used in this project were obtained from [Pexels](https://www.pexels.com/zh-cn/)
+
+### Acknowledgements
+
+- I received inspiration and idea from [Tiffany and Co.](https://www.tiffany.com/)
