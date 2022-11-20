@@ -28,7 +28,7 @@ For the features of the website it is ease to make users to understand and navig
 
 ### Existing Features
 
-- **`Shop`**` - allows users to choose from different categories to shop from new arrivals, bracelets, necklaces, rings, earrings or just shop all.`
+- `Shop - allows users to choose from different categories to shop from new arrivals, bracelets, necklaces, rings, earrings or just shop all.`
 
 - `Fine watches - for users to explore fine watches features from men's, women's to all fine watches.`
 
@@ -78,12 +78,9 @@ For the features of the website it is ease to make users to understand and navig
 - ii. Try and search for products that you are looking for and verify if it redirects to the pages related.
 - iii. Try to type any irrelevant content inside the box and verify if there's any invalid input message appears.
 
-```
 So far, I'm having trouble aligning the contents in different screen sizes as it may look different from each. Therefore, I'm currently working on 'media queries' and 'flexboxes' to make the content align in its corrrect position on different screen sizes.
 
 Moreover, users using browsers to navigate items in the home page may need to click to the 2nd page for viewing all products as the home page only consist 5-6 products while for phone view it will be showing up to 7-8 which is the desired amount of products I wanted to show at the home page.
-
-```
 
 ## Credits
 
