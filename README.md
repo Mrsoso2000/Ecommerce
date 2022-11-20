@@ -23,3 +23,5 @@ Then, I start creating a wireframe for my website that showcases the layout of t
 [Link for wireframe](https://xd.adobe.com/view/b602891e-dcf1-4a34-81fd-366c0df3ddea-e351/)
 
 ## Features
+
+For the features of the website it is ease to make users to understand and navigate easily. Therefore, it is seperated into few different parts. The **'options bar'** which consist of four different options; **_'Shop'_**,**_'Fine watches'_**,**_'Gifts'_**, and **_'Collections'_**. A **'Search Bar'**. In addition to that, users are able to find a **_Add to cart_** function below each product. Moreover, a **'Login'** icon for users to login as a member and a **'shopping cart'** icon for users to view the added items. Lastly a **'redeem voucher'** function to redeem voucher.
