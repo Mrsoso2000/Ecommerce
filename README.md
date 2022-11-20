@@ -30,23 +30,23 @@ For the features of the website it is ease to make users to understand and navig
 
 - `Shop - allows users to choose from different categories to shop from new arrivals, bracelets, necklaces, rings, earrings or just shop all.`
 
-- Fine watches - for users to explore fine watches features from men's, women's to all fine watches.
+- `Fine watches - for users to explore fine watches features from men's, women's to all fine watches.`
 
-- Gifts - allows users to choose for types of gifts either for 'Him', 'Her' or even for 'Birthdat Gifts'.
+- `Gifts - allows users to choose for types of gifts either for 'Him', 'Her' or even for 'Birthdat Gifts'`.
 
-- Collections - features collections only available for the current season.
+- `Collections - features collections only available for the current season.`
 
-- Search Bar - allows users to search for goods available in the store.
+- `Search Bar - allows users to search for goods available in the store.`
 
-- Login - allows users to either login as a member or register an account.
+- `Login - allows users to either login as a member or register an account.`
 
-- Shopping cart - allows users to view the item added and the total amount requires to pay.
+- `Shopping cart - allows users to view the item added and the total amount requires to pay.`
 
 ### Features Left to Implement
 
-- Add to cart - for users to add desired items into shopping cart upon clicking it.
+- `Add to cart - for users to add desired items into shopping cart upon clicking it.`
 
-- Redeem voucher - allows users to redeem voucher for reduction for chosen items under terms and conditions.
+- `Redeem voucher - allows users to redeem voucher for reduction for chosen items under terms and conditions.`
 
 ## Technologies Used
 
