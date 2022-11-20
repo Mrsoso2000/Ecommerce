@@ -88,7 +88,7 @@ Moreover, users using browsers to navigate items in the home page may need to cl
 
 ### Media
 
-- The photos used in this project were obtained from [Pexels](https://www.pexels.com/zh-cn/)
+- The video used in this project were obtained from [Youtube: 64FACETS ](https://www.youtube.com/watch?v=bNBi-6ON8TY)
 
 ### Acknowledgements
 
