@@ -18,7 +18,7 @@ Then, I start creating a wireframe for my website that showcases the layout of t
 
 - As a shopaholic on jewellery, I wanted to search for a great amount of jewels, so that I can choose from a variety of choices.
 
-##### Here is the wireframe for my project.
+##### **Here is the wireframe for my project.**
 
 [Link for wireframe](https://xd.adobe.com/view/b602891e-dcf1-4a34-81fd-366c0df3ddea-e351/)
 
