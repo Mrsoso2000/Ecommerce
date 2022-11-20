@@ -28,7 +28,7 @@ For the features of the website it is ease to make users to understand and navig
 
 ### Existing Features
 
-- Shop - allows users to choose from different categories to shop from new arrivals, bracelets, necklaces, rings, earrings or just shop all.
+- `Shop - allows users to choose from different categories to shop from new arrivals, bracelets, necklaces, rings, earrings or just shop all.`
 
 - Fine watches - for users to explore fine watches features from men's, women's to all fine watches.
 
