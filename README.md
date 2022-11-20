@@ -51,22 +51,30 @@ For the features of the website it is ease to make users to understand and navig
 ## Technologies Used
 
 1. [HTML](https://html.com/)
-   \*The project uses HTML to structure the web page and the content.
+   - The project uses HTML to structure the web page and the content.
 2. [CSS](#)
-   \*The project uses CSS to illustrate the layout, fonts, and color of the website.
+
+- The project uses CSS to illustrate the layout, fonts, and color of the website.
+
 3. [Javascript](https://www.w3.org/Style/CSS/Overview.en.html)
-   \*The project uses Javascript programming language to create interactions in web and for the 'redeem voucher' function in the project.
+
+- The project uses Javascript programming language to create interactions in web and for the 'redeem voucher' function in the project.
+
 4. [README File](https://www.makeareadme.com/)
-   \*The project uses README File to gives users a detailed description of the project.
+
+- The project uses README File to gives users a detailed description of the project.
+
 5. [Adobe XD](https://www.adobe.com/products/xd/pricing/free-trial.html)
-   \*The project uses Adobe XD to build prototype and brief idea of how the layout of the webpage should look like.
+
+- The project uses Adobe XD to build prototype and brief idea of how the layout of the webpage should look like.
 
 ## Testing
 
 1. Search Bar:
-   i. Go to 'Seach Bar' located in the center-top of the page
-   ii. Try and search for products that you are looking for and verify if it redirects to the pages related.
-   iii. Try to type any irrelevant content inside the box and verify if there's any invalid input message appears.
+
+- i. Go to 'Seach Bar' located in the center-top of the page
+- ii. Try and search for products that you are looking for and verify if it redirects to the pages related.
+- iii. Try to type any irrelevant content inside the box and verify if there's any invalid input message appears.
 
 So far, I'm having trouble aligning the contents in different screen sizes as it may look different from each. Therefore, I'm currently working on 'media queries' and 'flexboxes' to make the content align in its corrrect position on different screen sizes.
 
