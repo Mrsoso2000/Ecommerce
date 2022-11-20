@@ -14,11 +14,11 @@ Before I came out with the idea of how the website should look like and the layo
 
 Then, I start creating a wireframe for my website that showcases the layout of the website on how it should look like that gives me a clearer idea on how I should start progressing my project.
 
-#### List of Users stories
+#### List of Users stories:
 
 - As a shopaholic on jewellery, I wanted to search for a great amount of jewels, so that I can choose from a variety of choices.
 
-##### **Here is the wireframe for my project.**
+##### **Here is the wireframe for my project:**
 
 [Link for wireframe](https://xd.adobe.com/view/b602891e-dcf1-4a34-81fd-366c0df3ddea-e351/)
 
