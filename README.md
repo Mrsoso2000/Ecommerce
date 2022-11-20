@@ -51,7 +51,9 @@ For the features of the website it is ease to make users to understand and navig
 ## Technologies Used
 
 1. [HTML](https://html.com/)
-   - The project uses HTML to structure the web page and the content.
+
+- The project uses HTML to structure the web page and the content.
+
 2. [CSS](#)
 
 - The project uses CSS to illustrate the layout, fonts, and color of the website.
@@ -70,7 +72,7 @@ For the features of the website it is ease to make users to understand and navig
 
 ## Testing
 
-1. Search Bar:
+**1. Search Bar :**
 
 - i. Go to 'Seach Bar' located in the center-top of the page
 - ii. Try and search for products that you are looking for and verify if it redirects to the pages related.
