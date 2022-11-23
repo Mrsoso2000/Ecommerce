@@ -1,33 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
-body {
-  min-height: 100vh;
-  background: #fff;
+/*header starts*/
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 45px;
+.row {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.v-center {
   align-items: center;
 }
-
-/*Logo appearances*/
-header .logo {
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/*header*/
+.header {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  padding: 15px;
+}
+.header .item-left {
+  flex: 0 0 17%;
+}
+.header .logo a {
   color: black;
   font-weight: 700;
   text-decoration: none;
@@ -35,47 +46,127 @@ header .logo {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/*Logo appearances end*/
-
-/*Options align at top-center of page*/
-
-header ul {
+.header .item-center {
+  flex: 0 0 66%;
+}
+.header .header-icon {
+  flex: 0 0 17%;
   display: flex;
-  margin-right: 453px;
+  justify-content: flex-end;
 }
-/*Options align at top-center of page end*/
-
-/*Spacing between options*/
-header ul li {
-  list-style: none;
-  margin-left: 20px;
-}
-/*Spacing between options end*/
-
-header ul li a {
+.header .header-icon a {
   text-decoration: none;
-  padding: 6px 10px;
-  color: black;
-  border-radius: 2.1px;
+  font-size: 16px;
+  color: #000;
+  display: inline-block;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+.header .menu > ul > li {
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 25px;
+}
+.header .menu > ul > li > a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  position: relative;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+.header .menu > ul > li .sub-menu {
+  position: absolute;
+  z-index: 500;
+  background-color: #fff;
+  box-shadow: -2px 2px 70px -25px rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  transition: all 0.5s ease;
+  margin-top: 15px;
+  opacity: 0;
+  visibility: hidden;
+}
+.header .menu > ul > li.dropdown-menu:hover .sub-menu {
+  margin-top: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
-/*hover over options effect*/
-header ul li a:hover {
-  background: black;
-  color: #fff;
-  transition: 0.7s;
+.header .menu > ul > li .sub-menu > ul > li {
+  line-height: 1;
 }
-/*hover over options effect end*/
+.header .menu > ul > li .sub-menu > ul > li > a {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 15px;
+  color: grey;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.header .menu > ul > li .list-item > ul > li > a {
+  color: grey;
+}
+.header .menu > ul > li .sub-menu-title {
+  color: #000;
+}
+.header .menu > ul > li .single-col {
+  min-width: 280px;
+  max-width: 350px;
+}
+.header .menu > ul > li .sub-menu.mega-menu {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-6 {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-6 > .list-item {
+  flex: 0 0 19%;
+  padding: 0 9px;
+}
 
-/* Sub Menus */
-/* Sub Menu 1*/
-
-/* Sub Menu 1 end*/
-/* Sub Menus end*/
+.header .menu > ul > li .sub-menu.mega-menu-column-6 > .list-item img {
+  max-width: 1000%;
+  width: 127%;
+  vertical-align: middle;
+  padding-top: 9px;
+}
+/*just for drop-down 'Gifts' & 'Fine Watches' */
+.header .menu > ul > li .sub-menu.mega-menu-column-4 {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item {
+  flex: 0 0 19%;
+  padding: 0 9px;
+  text-align: left;
+}
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item img {
+  max-width: 1000%;
+  width: 100%;
+}
+/*just for drop-down 'Gifts' and 'Fine Watches' ends*/
+.header .menu > ul > li .sub-menu > ul > li > a:hover,
+.header .menu > ul > li .list-item > ul > li > a:hover,
+.header .header-icon a :hover,
+.header .menu > ul > li:hover > a {
+  color: #ea4636;
+  transition: 0.5s;
+}
+.menu {
+  text-align: center;
+}
+/*header starts ends*/
 
 /*Search box*/
 .container {
-  margin-top: 6em;
   text-align: center;
 }
 
@@ -105,36 +196,19 @@ div input {
 }
 /*Search box end*/
 
-/*shopping bag & profile icon*/
-.icons {
+/*About us content*/
+
+/* background video in 'About us' content */
+#diamond-vd {
+  filter: alpha;
+  opacity: 66%;
   position: absolute;
-  top: 0;
-  margin-top: 1.7em;
-  right: 6em;
+  margin-top: 2.1em;
+  object-fit: cover;
+  width: 100vw;
+  height: 51vh;
 }
-
-.icons ion-icon {
-  color: black;
-}
-.icons ion-icon,
-[name="person-circle-outline"] {
-  margin-right: 19px;
-}
-
-ion-icon:hover {
-  /* moused over link */
-  color: rgb(224, 17, 186);
-}
-
-/*shopping bag & profile icon end*/
-
-/* test out fonts 
-p ,a {
-  font-family: 'Courier New', Courier, monospace;
-}
-*/
-
-/*Introduction content*/
+/* background video in 'About us' content end*/
 .about_us h1 {
   font-size: 44px;
   padding-left: 1em;
@@ -178,21 +252,4 @@ p {
   transition: scale(1.1);
   transition: 0.5s;
 }
-/*Introduction content end*/
-
-/* background video in 'About us' content */
-
-#diamond-vd {
-  filter: alpha;
-  opacity: 66%;
-  position: absolute;
-  margin-top: 2.1em;
-  object-fit: cover;
-  width: 100vw;
-  height: 51vh;
-}
-/* background video in 'About us' content end*/
-
-/*products*/
-
-/*products end*/
+/*About us content ends*/

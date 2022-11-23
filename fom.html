@@ -1,61 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>Find out more page</title>
+    <meta name="viewport" content="width=devie-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="normalize.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!--Menu & Logo-->
     <header>
-      <a href="index.html" class="logo">Argyle Co.</a>
-      <ul>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Fine watches</a></li>
-        <li><a href="#">Gifts</a></li>
-        <li><a href="#">Collections</a></li>
-      </ul>
-      <!--Profile and shopping cart icons-->
-      <div class="icons">
-        <script
-          type="module"
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-          type="module"
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-        <a href="login.html"
-          ><ion-icon name="person-circle-outline" size="large"></ion-icon
-        ></a>
-        <a href="cart.html"
-          ><ion-icon name="bag-handle" size="large"></ion-icon
-        ></a>
+      <!--header start-->
+      <div class="header">
+        <div class="container">
+          <div class="row v-center">
+            <div class="header-item item-left">
+              <div class="logo">
+                <a href="index.html">Argyle Co.</a>
+              </div>
+            </div>
+            <!--menu starts here-->
+            <div class="header-item item-center">
+              <nav class="menu">
+                <ul class="menu-main">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#">Shop</a>
+                    <div class="sub-menu mega-menu mega-menu-column-6">
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">New Arrivals</h4>
+                        <ul>
+                          <li><a href="#">Lotus Series</a></li>
+                          <li><a href="#">Emerald Cut Earrings</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Necklaces & Pedants</h4>
+                        <ul>
+                          <li><a href="#">Chain</a></li>
+                          <li><a href="#">Layering</a></li>
+                          <li><a href="#">Bold</a></li>
+                          <li><a href="#">Sapphire Tennis</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Bracelets</h4>
+                        <ul>
+                          <li><a href="#">Gold Bracelets</a></li>
+                          <li><a href="#">Emerald Cut</a></li>
+                          <li><a href="#">Ruby</a></li>
+                          <li><a href="#">Rose Cut Bangle</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Rings & Earrings</h4>
+                        <ul>
+                          <li><a href="#">Stud Earrings</a></li>
+                          <li><a href="#">Hoop Earrings</a></li>
+                          <li><a href="#">Stackking Rings</a></li>
+                          <li><a href="#">Scallop Diamond Ring</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <img src="diamond-ring.jpg" alt="shop" />
+                        <img src="diamond-neck.jpg" alt="shop" />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#">Fine watches</a>
+                    <div class="sub-menu mega-menu mega-menu-column-4">
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Curated Shops</h4>
+                        <ul>
+                          <li><a href="#">Men's</a></li>
+                          <li><a href="#">Women's</a></li>
+                          <li><a href="#">Diamond</a></li>
+                          <li><a href="#">Power ranger</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <img src="diamond-ring.jpg" alt="shop" />
+                        <img src="diamond-neck.jpg" alt="shop" />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#">Gifts</a>
+                    <div class="sub-menu mega-menu mega-menu-column-4">
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Gifts For..</h4>
+                        <ul>
+                          <li><a href="#">Him</a></li>
+                          <li><a href="#">Her</a></li>
+                          <li><a href="#">Anniversary Gifts</a></li>
+                          <li><a href="#">Birthday Gifts</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#">Collections</a>
+                    <div class="sub-menu single-col">
+                      <ul>
+                        <li><a href="#">Diamonds</a></li>
+                        <li><a href="#">Gold</a></li>
+                        <li><a href="#">Jade</a></li>
+                        <li><a href="#">Bangles</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!--menu end here-->
+            <div class="header-icon">
+              <script
+                type="module"
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+              ></script>
+              <script
+                type="module"
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+              ></script>
+              <a href="login.html"
+                ><ion-icon name="person-circle-outline" size="large"></ion-icon
+              ></a>
+              <a href="cart.html"
+                ><ion-icon name="bag-handle" size="large"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <!--Profile and shopping cart icons end-->
     </header>
-    <!--Menu & Logo end-->
-
-    <!--Search Bar-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <div class="container">
-      <form id="animated">
-        <input
-          href="index.html "
-          type="text"
-          name="search"
-          placeholder="Search Argyle Co."
-        />
-        <a href="#"><i class="fa fa-search"></i></a>
-      </form>
-    </div>
-    <!--Search Bar end-->
-
-    <!--Content-->
-
-    <!--Content end-->
+    <!--header ends-->
   </body>
 </html>

@@ -1,61 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Argyle Co.</title>
+    <meta charset="UTF-8" />
+    <title>ID Asssignment 1 - Argyle Co.</title>
+    <meta name="viewport" content="width=devie-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <!--
-  <style>
-    .flex-item {
-			padding: 2%;
-			flex-grow: 1;
-			flex-basis: 15%;
-			display: flex;
-			flex-direction: column;
-			border: 1px solid #D3D3D3;
-    }
-    @media (max-width: 320px) {
-			.flex-item {
-				flex-grow: 1;
-                flex-basis: 30%;
-                max-width: 40%;
-                display: flex;
-                flex-direction: column;
-			}
-  </style>
-  --></head>
+  </head>
   <body>
-    <!--Menu & Logo-->
     <header>
-      <a href="#" class="logo">Argyle Co.</a>
-      <div class="dropdown"></div>
-      <ul>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Fine watches</a></li>
-          <li><a href="#">Gifts</a></li>
-          <li><a href="#">Collections</a></li>
-      </ul>
-      </header>
-      <!--Profile and shopping cart icons-->
-      <div class="icons">
-        <script
-          type="module"
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-          type="module"
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-        <a href="login.html"
-          ><ion-icon name="person-circle-outline" size="large"></ion-icon
-        ></a>
-        <a href="cart.html"
-          ><ion-icon name="bag-handle" size="large"></ion-icon
-        ></a>
+      <!--header start-->
+      <div class="header">
+        <div class="container">
+          <div class="row v-center">
+            <div class="header-item item-left">
+              <div class="logo">
+                <a href="index.html">Argyle Co.</a>
+              </div>
+            </div>
+            <!--menu starts here-->
+            <div class="header-item item-center">
+              <nav class="menu">
+                <ul class="menu-main">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#" id="header-hover">Shop</a>
+                    <div class="sub-menu mega-menu mega-menu-column-6">
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">New Arrivals</h4>
+                        <ul>
+                          <li><a href="#">Lotus Series</a></li>
+                          <li><a href="#">Emerald Cut Earrings</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Necklaces & Pedants</h4>
+                        <ul>
+                          <li><a href="#">Chain</a></li>
+                          <li><a href="#">Layering</a></li>
+                          <li><a href="#">Bold</a></li>
+                          <li><a href="#">Sapphire Tennis</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Bracelets</h4>
+                        <ul>
+                          <li><a href="#">Gold Bracelets</a></li>
+                          <li><a href="#">Emerald Cut</a></li>
+                          <li><a href="#">Ruby</a></li>
+                          <li><a href="#">Rose Cut Bangle</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Rings & Earrings</h4>
+                        <ul>
+                          <li><a href="#">Stud Earrings</a></li>
+                          <li><a href="#">Hoop Earrings</a></li>
+                          <li><a href="#">Stackking Rings</a></li>
+                          <li><a href="#">Scallop Diamond Ring</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <img src="diamond-ring.jpg" alt="shop" />
+                        <img src="diamond-neck.jpg" alt="shop" />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#" id="header-hover">Fine watches</a>
+                    <div class="sub-menu mega-menu mega-menu-column-4">
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Curated Shops</h4>
+                        <ul>
+                          <li><a href="#">Men's</a></li>
+                          <li><a href="#">Women's</a></li>
+                          <li><a href="#">Diamond</a></li>
+                          <li><a href="#">Power ranger</a></li>
+                        </ul>
+                      </div>
+                      <div class="list-item">
+                        <img src="diamond-ring.jpg" alt="shop" />
+                        <img src="diamond-neck.jpg" alt="shop" />
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#" id="header-hover">Gifts</a>
+                    <div class="sub-menu mega-menu mega-menu-column-4">
+                      <div class="list-item">
+                        <h4 class="sub-menu-title">Gifts For..</h4>
+                        <ul>
+                          <li><a href="#">Him</a></li>
+                          <li><a href="#">Her</a></li>
+                          <li><a href="#">Anniversary Gifts</a></li>
+                          <li><a href="#">Birthday Gifts</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown-menu">
+                    <a href="#" id="header-hover">Collections</a>
+                    <div class="sub-menu single-col">
+                      <ul>
+                        <li><a href="#">Diamonds</a></li>
+                        <li><a href="#">Gold</a></li>
+                        <li><a href="#">Jade</a></li>
+                        <li><a href="#">Bangles</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!--menu end here-->
+            <div class="header-icon">
+              <script
+                type="module"
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+              ></script>
+              <script
+                type="module"
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+              ></script>
+              <a href="login.html"
+                ><ion-icon name="person-circle-outline" size="large"></ion-icon
+              ></a>
+              <a href="cart.html"
+                ><ion-icon name="bag-handle" size="large"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <!--Profile and shopping cart icons end-->
     </header>
-    <!--Menu & Logo end-->
+    <!--header ends-->
 
     <!--Search Bar-->
     <link
@@ -65,7 +145,7 @@
     <div class="container">
       <form id="animated">
         <input
-          href="index.html "
+          href="index.html"
           type="text"
           name="search"
           placeholder="Search Argyle Co."
@@ -73,9 +153,32 @@
         <a href="#"><i class="fa fa-search"></i></a>
       </form>
     </div>
-    <!--Search Bar end-->
+    <!--Search Bar ends-->
 
-    <!--Social icons (Facebook,Instagram,Twitter,Linkedin)
+    <!--About us-->
+    <div class="vd-autoplay">
+      <video autoplay muted loop id="diamond-vd">
+        <source src="Diamond-video.mp4" type="video/mp4" />
+        Your browser does not support html 5 video. sry..
+      </video>
+    </div>
+
+    <div class="about_us">
+      <div>
+        <h1>About us</h1>
+        <p>
+          A fictional Jewellery company of my own named Argyle Co. that featured
+          a wide range of finest jewelry <br />
+          from necklaces & pendants, rings, earrings, bracelets to fine watches.
+        </p>
+        <a href="fom.html" type="button" class="fom">Find out more</a>
+      </div>
+    </div>
+    <!--About us ends-->
+  </body>
+</html>
+
+<!--Social icons (Facebook,Instagram,Twitter,Linkedin)
     <section>
       <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
       <a href="#"><i class="ion-social-facebook"></i></a>
@@ -85,33 +188,3 @@
       <a href="#"><i class="ion-social-youtube"></i></a>
     </section>
     Social icons (Facebook,Instagram,Twitter,Linkedin)-->
-
-    <!--Video autoplay-->
-    <div class="vd-autoplay">
-      <video autoplay muted loop id="diamond-vd">
-        <source src="Diamond-video.mp4" type="video/mp4" />
-        Your browser does not support html 5 video. sry..
-      </video>
-    </div>
-    <!--Video autoplay end-->
-
-    <!--Introduction content-->
-    <div class="about_us">
-      <div>
-        <h1>About us</h1>
-        <p>
-          A fictional Jewellery company of my own named Argyle Co. that featured
-          a wide range of finest jewelry <br>
-          from necklaces & pendants, rings, earrings, bracelets to fine watches.
-        </p>
-        <a href="fom.html" type="button" class="fom">Find out more</a>
-      </div>
-    </div>
-    <!--Introduction content end-->
-
-    <!--Products-->
-    <div class="products"></div>
-    <!--Products end-->
-
-  </body>
-</html>
