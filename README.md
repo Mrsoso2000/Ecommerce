@@ -88,9 +88,9 @@ Moreover, users using browsers to navigate items in the home page may need to cl
 
 ### Media
 
-- The video used in this project were obtained from [Youtube: 64FACETS ](https://www.youtube.com/watch?v=bNBi-6ON8TY)
-- The picture used in this project were obtained form [pexel](https://www.pexels.com/zh-cn/),[unsplash](https://unsplash.com/), and [64facets](https://64facets.com/)
+- The video used in this project were obtained from [64FACETS-Youtube](https://www.youtube.com/watch?v=bNBi-6ON8TY).
+- The picture used in this project were obtained form [pexel](https://www.pexels.com/zh-cn/),[unsplash](https://unsplash.com/), and [64facets](https://64facets.com/).
 
 ### Acknowledgements
 
-- I received inspiration and idea from [Tiffany and Co.](https://www.tiffany.com/),[Swarovski](https://www.swarovski.com/en-SG/), and [Bvlgari](https://www.bulgari.com/en-sg/)
+- I received inspiration and idea from [Tiffany and Co.](https://www.tiffany.com/),[Swarovski](https://www.swarovski.com/en-SG/), and [Bvlgari](https://www.bulgari.com/en-sg/).
