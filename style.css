@@ -274,6 +274,7 @@ p {
 /* Product Card details */
 .product-card {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 .product-card .product-1 {
@@ -366,7 +367,7 @@ p {
 .product-card .product-7:hover,
 .product-card .product-8:hover,
 .product-card .product-9:hover {
-  -webkit-filter: brightness(80%);
+  -webkit-filter: brightness(90%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -423,5 +424,231 @@ p {
 /* Product Card details ends*/
 
 /* Image slider */
+.img-slider {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 10px;
+  background: #ffffff;
+  top: 45em;
+  left: 36.7em;
+}
+
+.img-slider .slide {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active {
+  clip-path: circle(150% at 0 50%);
+  transition: 2s;
+  transition-property: clip-path;
+}
+
+.img-slider .slide img {
+  z-index: 1;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.img-slider .slide .info {
+  position: absolute;
+  top: 0;
+  padding: 15px 30px;
+}
+
+.img-slider .slide .info h2 {
+  color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.img-slider .slide .info p {
+  color: #fff;
+  font-size: 18px;
+  width: 77%;
+  padding: 9px;
+  border-radius: 4px;
+}
+
+.img-slider .navigation {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+  background: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img-slider .navigation .btn.active {
+  background: #000000;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 820px) {
+  .img-slider {
+    width: 600px;
+    height: 375px;
+  }
+
+  .img-slider .slide .info {
+    padding: 10px 25px;
+  }
+
+  .img-slider .slide .info h2 {
+    font-size: 35px;
+  }
+
+  .img-slider .slide .info p {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .img-slider .navigation {
+    bottom: 25px;
+  }
+
+  .img-slider .navigation .btn {
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 620px) {
+  .img-slider {
+    width: 400px;
+    height: 250px;
+  }
+
+  .img-slider .slide .info {
+    padding: 10px 20px;
+  }
+
+  .img-slider .slide .info h2 {
+    font-size: 30px;
+  }
+
+  .img-slider .slide .info p {
+    width: 80%;
+    font-size: 13px;
+  }
+
+  .img-slider .navigation {
+    bottom: 15px;
+  }
+
+  .img-slider .navigation .btn {
+    width: 8px;
+    height: 8px;
+    margin: 6px;
+  }
+}
+
+@media (max-width: 420px) {
+  .img-slider {
+    width: 320px;
+    height: 200px;
+  }
+
+  .img-slider .slide .info {
+    padding: 5px 10px;
+  }
+
+  .img-slider .slide .info h2 {
+    font-size: 25px;
+  }
+
+  .img-slider .slide .info p {
+    width: 90%;
+    font-size: 11px;
+  }
+
+  .img-slider .navigation {
+    bottom: 10px;
+  }
+}
+.img-slider a.slider-button {
+  text-decoration: none;
+  position: absolute;
+  left: 3.5em;
+  top: 15em;
+  display: inline-block;
+  padding: 10px 12px;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+}
+.img-slider a.slider-button:hover {
+  color: #fff;
+  background-color: transparent;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transition: scale(1.1);
+  transition: 0.4s;
+}
+.img-slider a#button-gift {
+  text-decoration: none;
+  position: absolute;
+  left: 3.5em;
+  top: 15em;
+  display: inline-block;
+  padding: 10px 12px;
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.img-slider a#button-gift:hover {
+  color: #fff;
+  background-color: transparent;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transition: scale(1.1);
+  transition: 0.4s;
+}
 
 /* Image slider ends*/
+
+/* footer */
+.footer {
+  display: flex;
+  position: absolute;
+  background-color: #dddddd;
+  height: 300px;
+  width: 100%;
+  top: 90em;
+}
+.social-icon {
+  display: flex;
+  position: absolute;
+  color: #000;
+  top: 105em;
+  left: 40px;
+}
+.social-icon a {
+  padding-right: 20px;
+  font-size: 30px;
+  color: #000;
+}
+.social-icon a:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transition: scale(1.1);
+  transition: 0.4s;
+}
+/* footer ends*/
