@@ -50,3 +50,6 @@ var slides = document.querySelectorAll(".slide");
         repeater();
       };
       repeat();
+
+
+
