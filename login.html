@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <title>Login page</title>
     <meta name="viewport" content="width=devie-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="login.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
       <!--header start-->
-      <div class="header">
+      <div class="header" id="myHeader">
         <div class="container">
           <div class="row v-center">
             <div class="header-item item-left">
@@ -163,18 +163,59 @@
     <!--header ends-->
 
     <!--Login content-->
-    <section>
-      <div class="login-info">
-        <div class="table-1">
-          
+    <div class="container_login">
+      <input type="checkbox" id="flip">
+      <div class="cover">
+        <div class="front">
+          <img src="image/login-frontpage.jpg" alt="">
         </div>
       </div>
-    </section>
+      <form action="#" method="GET">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+            <div class="input-boxes">
+              <div class="input-box">
+                <ion-icon name="mail"></ion-icon>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <ion-icon name="key"></ion-icon>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="text"><a href="#">Forgot password?</a></div>
+              <div class="button input-box">
+                <input type="submit" value="Submit">
+              </div>
+              <div class="text">Don't have an account?<label for="flip"> Sign Up now!</label></div>
+            </div>
+          </div>
+          <div class="signup-form">
+            <div class="title">Signup</div>
+            <div class="input-boxes">
+              <div class="input-box">
+                <ion-icon name="person-circle"></ion-icon>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="input-box">
+                <ion-icon name="mail"></ion-icon>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <ion-icon name="key"></ion-icon>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="button input-box">
+                <input type="submit" value="Submit">
+              </div>
+              <div class="text">Already have an account?<label for="flip"> Login now.</label></div>
+            </div>
+          </div>
+  
+        </div>
+      </form>
+    </div>
     <!--Login content ends-->
-
-
-
-
 
     <!--footer-->
     <div class="footer"></div>
