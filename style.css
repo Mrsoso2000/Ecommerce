@@ -227,6 +227,10 @@ a {
   .header .header-icon a {
     display: none;
   }
+  .row {
+    display: block;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 730px) {
   #nav-icon {
@@ -235,7 +239,7 @@ a {
   .menu-main {
     position: absolute;
     top: 100%;
-    right: 2%;
+    right: -100%;
     width: 270px;
     height: 34vh;
     text-align: left;
@@ -246,9 +250,17 @@ a {
     border-radius: 4px;
     transition: all 0.5s ease;
   }
+
+  .menu-main a:hover {
+    color: #fff;
+    transform: translateY(5px);
+  }
+  .menu-main.open {
+    right: 2%;
+  }
 }
 
-/*header starts ends*/
+/*header ends*/
 
 /*Search box*/
 .container {

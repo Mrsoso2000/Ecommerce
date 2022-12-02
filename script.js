@@ -53,6 +53,12 @@ var slides = document.querySelectorAll(".slide");
       repeat();
 
 
-
+// hidden menu responsive
+let menu = document.querySelector("#nav-icon")
+let menu_main = document.querySelector(".menu-main")
+menu.onclick = () => {
+  menu.classList.toggle("bx-x");
+  menu_main.classList.toggle("open");
+}
 
 
