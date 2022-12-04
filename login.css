@@ -274,7 +274,7 @@ a {
 
 .form-content .login-form,
 .form-content .signup-form {
-  width: calc(100% / 2-25px);
+  width: calc(100% / 2 - 25px);
   /* background:red;*/
 }
 form .form-content .title {
@@ -446,7 +446,6 @@ footer {
 .social-icon a:hover {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
-  transition: scale(1.2);
   transition: 0.4s;
 }
 /* footer ends*/
