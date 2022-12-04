@@ -713,6 +713,12 @@ footer {
 /* footer ends*/
 
 /* cart */
+.cart-content h3 {
+  font-weight: 200;
+  position: relative;
+  top: 2em;
+  left: 2em;
+}
 .cart {
   display: flex;
   position: absolute;
@@ -724,8 +730,8 @@ footer {
 .cart .cart-button {
   text-decoration: none;
   position: absolute;
-  top: 28em;
-  left: 33em;
+  top: 28.7em;
+  left: 37em;
   display: inline-block;
   padding: 7px 12px;
   color: black;
@@ -743,3 +749,40 @@ footer {
   background-color: black;
 }
 /* cart ends */
+
+/* promo code input */
+.cart-content .promo-box {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  margin: 30px;
+  width: 20%;
+  border-bottom: 2px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  top: 30em;
+  left: 44em;
+}
+.cart-content .promo-box input {
+  width: 200px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgb(0, 0, 0);
+}
+.cart-content .promo-box .fom {
+  text-decoration: none;
+  position: absolute;
+  top: 3em;
+  display: inline-block;
+  padding: 7px 12px;
+  color: black;
+  background-color: transparent;
+  border: 3px solid black;
+  font-family: "Montserrat", sans-serif;
+}
+.cart-content .promo-box .fom:hover {
+  background-color: black;
+  color: #fff;
+}
+/* promo code input ends */
