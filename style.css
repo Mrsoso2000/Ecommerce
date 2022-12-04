@@ -252,7 +252,6 @@ a {
   }
 
   .menu-main a:hover {
-    color: #fff;
     transform: translateY(5px);
   }
   .menu-main.open {
@@ -493,7 +492,7 @@ div input {
   height: 380px;
   margin: 10px;
   background: transparent;
-  left: 49em;
+  left: 48em;
   top: 19.7em;
 }
 
@@ -610,6 +609,13 @@ div input {
   top: 15em;
   background-color: #eaeaea;
 }
+.fom_text p {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 900;
+  position: absolute;
+  left: 3em;
+  top: 8em;
+}
 
 /* Image slider ends*/
 
@@ -705,3 +711,35 @@ footer {
   transition: 0.4s;
 }
 /* footer ends*/
+
+/* cart */
+.cart {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  height: 77vh;
+  right: 0;
+  background-color: rgb(162, 159, 162);
+}
+.cart .cart-button {
+  text-decoration: none;
+  position: absolute;
+  top: 28em;
+  left: 33em;
+  display: inline-block;
+  padding: 7px 12px;
+  color: black;
+  background-color: transparent;
+  border: 3px solid black;
+  font-family: "Montserrat", sans-serif;
+}
+.cart .cart-button a {
+  color: #000;
+}
+.cart .cart-button a:hover {
+  color: #fff;
+}
+.cart .cart-button:hover {
+  background-color: black;
+}
+/* cart ends */
