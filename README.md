@@ -42,9 +42,9 @@ For the features of the website it is ease to make users to understand and navig
 
 - `Shopping cart - allows users to view the item added and the total amount requires to pay.`
 
-### Features Left to Implement
-
 - `Add to cart - for users to add desired items into shopping cart upon clicking it.`
+
+### Features Left to Implement
 
 - `Redeem voucher - allows users to redeem voucher for reduction for chosen items under terms and conditions.`
 
